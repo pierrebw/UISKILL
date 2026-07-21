@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  --precision-canvas: #09090b;
+  --precision-sidebar: #0e0e10;
+  --precision-panel: #121214;
+  --precision-panel-elevated: #17171a;
+  --precision-hover: #1c1c20;
+  --precision-selected: #242429;
+  --precision-border-subtle: #1d1d21;
+  --precision-border: #2a2a2f;
+  --precision-text: #f2f2f3;
+  --precision-text-secondary: #a5a5ab;
+  --precision-text-muted: #6e6e76;
+  --precision-accent: #3b82f6;
+  --precision-success: #36c66a;
+  --precision-warning: #f3b61f;
+  --precision-danger: #ff414d;
+  --precision-info: #3b82f6;
+  --precision-radius-sm: 6px;
+  --precision-radius-md: 9px;
+  --precision-radius-lg: 12px;
+  --precision-control-sm: 32px;
+  --precision-control-md: 38px;
+  --precision-row: 52px;
+  --precision-rail: 68px;
+  --precision-sidebar-width: 272px;
+  --precision-topbar: 64px;
+  --precision-ease: 160ms ease-out;
+  --precision-font-sans: Inter, Geist, "SF Pro Display", "Segoe UI", sans-serif;
+  --precision-font-mono: "Geist Mono", "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --precision-canvas: #f7f7f8;
+  --precision-sidebar: #ffffff;
+  --precision-panel: #ffffff;
+  --precision-panel-elevated: #fafafb;
+  --precision-hover: #f2f2f4;
+  --precision-selected: #ececef;
+  --precision-border-subtle: #ececef;
+  --precision-border: #dedee3;
+  --precision-text: #17171a;
+  --precision-text-secondary: #5e5e66;
+  --precision-text-muted: #9898a1;
+}

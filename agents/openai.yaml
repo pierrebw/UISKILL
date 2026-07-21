@@ -1,0 +1,12 @@
+interface:
+  display_name: Build Precision Dashboard UI
+  short_description: Build dense, reference-faithful dashboard UIs
+  default_prompt: Use $build-precision-dashboard-ui to build a desktop dashboard that
+    stays faithful to the bundled visual references.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
